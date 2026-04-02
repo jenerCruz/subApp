@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Login from "./pages/Login";
 import AdminPanel from "./pages/AdminPanel";
 import MarketplaceMobile from "./pages/MarketplaceMobile";
+import Marketplace from "./pages/Marketplace";
 import { Product } from "./types";
 
 type ViewType = "home" | "catalog" | "news" | "contact" | "admin" | "login";
